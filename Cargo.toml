@@ -1,0 +1,16 @@
+[package]
+name = "servo-embedding-example"
+version = "0.1.0"
+authors = ["karad <kazuhiroh+karad@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+# libservo = { git = "https://github.com/servo/servo", rev = "a9ec99f42" }
+# libservo = { git = "https://github.com/servo/servo", rev = "17d7a12" }
+libservo = { path = "/Users/kazuhirohara/src/servo/components/servo" }
+glutin = "0.13.1"
+# glutin = "0.21.0"
+
+[features]
+azure_backend = ["libservo/azure_backend"]
+raqote_backend = ["libservo/raqote_backend"]
