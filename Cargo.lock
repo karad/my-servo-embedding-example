@@ -2747,6 +2747,14 @@ version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
+name = "my-servo-embedding-example"
+version = "0.1.0"
+dependencies = [
+ "glutin 0.13.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "libservo 0.0.1",
+]
+
+[[package]]
 name = "net"
 version = "0.0.1"
 dependencies = [
@@ -3779,14 +3787,6 @@ version = "0.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "libc 0.2.53 (registry+https://github.com/rust-lang/crates.io-index)",
-]
-
-[[package]]
-name = "servo-embedding-example"
-version = "0.1.0"
-dependencies = [
- "glutin 0.13.1 (registry+https://github.com/rust-lang/crates.io-index)",
- "libservo 0.0.1",
 ]
 
 [[package]]

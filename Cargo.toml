@@ -1,5 +1,5 @@
 [package]
-name = "servo-embedding-example"
+name = "my-servo-embedding-example"
 version = "0.1.0"
 authors = ["karad <kazuhiroh+karad@gmail.com>"]
 edition = "2018"
